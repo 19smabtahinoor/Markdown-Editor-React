@@ -92,6 +92,7 @@ const Wrapper = styled.section`
     overflow:auto;
     padding:15px ;
     box-sizing:border-box;
+    word-break:break-all;
 }
 .markdown__previewer::-webkit-scrollbar{
     display:none;
@@ -106,6 +107,11 @@ const Wrapper = styled.section`
 }
 a{
     color:rgb(0, 109, 255);
+}
+img{
+    width:100%;
+    height:300px;
+    object-fit:contain;
 }
 
 `
